@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://localhost:11222
+url: http://localhost:4000
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -28,8 +28,6 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
-
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -103,9 +101,13 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/10240418/helloworld-.git
+  repository: https://github.com/10240418/myblog.git
   branch: main
 
 # 页面樱花飘落动效
 sakura:
   enable: true
+
+# 跳过渲染
+skip_render:
+  -"ZONE/**"
