@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">//设置视口的宽度等于设备的宽度  1.0表示缩放比例
+    <title>Document</title>
+    <style>
+        .div-class{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+
+
+</head>
+<body>
+<div id="ddd" class="div-class">我是也给div</div>
+
+</body>
+<script>
+console.log(...[1,2,3,[6,7,8]]);//解开数组
+console.log({...[1,2],...[3,4]});//解开数组
+console.log([1,2,3].concat([4,5,6]));//合并数组
+console.log(...'hello');//解开字符串
+localStorage.setItem('name','zhangsan');
+        console.log(document.getElementById('ddd'));
+        console.log(document.getElementsByClassName('div-class'));
+        console.log(document.querySelector('.div-class'));
+
+</script>
+
+</html>

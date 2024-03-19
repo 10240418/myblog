@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="mydiv" style="position:absolute">Some text.</div>
+
+<script>
+    var adiv = document.getElementById("mydiv");
+    var leftpos = 0;
+
+    function movediv(timestamp){
+
+        leftpos += 50;
+        const a =window.screen.width;
+        leftpos%=a;
+
+        adiv.style.left = leftpos + "px";
+        requestAnimationFrame(movediv);
+    }
+    requestAnimationFrame(movediv);
+//     tiestamp参数的作用是 用来计算动画的时间间隔  但是这个参数在不同浏览器中的表现不一样       有的浏览器会返回时间戳  有的浏览器会返回一个时间间隔一般是多少
+//     但是这个参数在不同浏览器中的表现不一样       有的浏览器会返回时间戳  有的浏览器会返回一个时间间隔一般是多少
+</script>
+
+</body>
+</html>

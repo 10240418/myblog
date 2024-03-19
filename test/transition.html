@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            animation: moveAnimation 1s ease-in-out forwards;
+        }
+        .container {
+            position: relative;
+            background: #EEEEEE;
+        }
+        .sanjiao{
+            width:0;
+            height:0;
+            border-left:200px solid blue;
+            border-right:200px solid #5151ab;
+            border-top:200px solid transparent;
+            border-bottom:200px solid transparent;
+            border-radius: 200px
+        }
+
+        @keyframes moveAnimation {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(200px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box"></div>
+    <div class="sanjiao"></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>山羊の前端小窝</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      overflow: hidden;
+    }
+
+    .shell {
+      height: 100vh;
+      display: flex;
+    }
+
+    .box {
+      flex: 1;
+      min-width: 0;
+      box-shadow: -20px 0 20px 5px rgba(255, 255, 255, 0.7);
+      transition: flex 0.8s;
+      background-size: cover;
+      background-position: center;
+      display: grid;
+      place-items: center;
+      border: 10px solid #fff;
+    }
+
+    .box:hover {
+      flex: 2;
+    }
+
+    .box:hover .text {
+      animation: appear 0.8s forwards 0.3s;
+    }
+
+    .img1 {
+      background-image: url(./img/23.jpg);
+    }
+
+    .img2 {
+      background-image: url(./img/08.jpg);
+    }
+
+    .img3 {
+      background-image: url(./img/03.jpg);
+    }
+
+    .img4 {
+      background-image: url(./img/29.jpg);
+    }
+
+    .text {
+      padding: 45px 75px;
+      opacity: 0;
+      color: rgb(255, 255, 255);
+      height: 380px;
+      width: 600px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    header {
+      height: 73px;
+      font-size: 65px;
+      font-family: 华文中宋;
+      line-height: 65px;
+      font-weight: bold;
+      border-bottom: 2px solid white;
+    }
+
+    .title {
+      display: inline-block;
+      height: 65px;
+      text-decoration: underline;
+      text-underline-offset: 10px;
+      text-decoration-thickness: 4px;
+    }
+
+    .num {
+      margin-left: -18px;
+    }
+
+    .text p {
+      margin: 30px 0;
+      font-size: 30px;
+    }
+
+    @keyframes appear {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<div class="shell">
+  <div class="box img1">
+    <div class="text">
+      <header>
+        <span class="title">NO.</span>
+        <span class="num">1</span>
+      </header>
+      <p>
+        在苗族山村，有一位美丽绝伦的少女，她身穿苗族传统服饰，头戴银饰，络绎不绝。她眼里闪烁着聪颖的光芒，展现出苗族女孩的独有魅力和自信。
+      </p>
+    </div>
+  </div>
+  <div class="box img2">
+    <div class="text">
+      <header>
+        <span class="title">NO.</span>
+        <span class="num">2</span>
+      </header>
+      <p>
+        每天清晨，她会跟随母亲到田地里劳作，肩负着繁重的家务活，但她从不抱怨，始终保持着微笑，展现出苗族女孩的坚毅与勤劳。
+      </p>
+    </div>
+  </div>
+  <div class="box img3">
+    <div class="text">
+      <header>
+        <span class="title">NO.</span>
+        <span class="num">3</span>
+      </header>
+      <p>
+        在节庆日，她会参加苗族的传统舞蹈，舞姿优美，灵动而生动。她的步伐轻盈，在舞蹈中展现出苗族女孩的优雅与风采。
+      </p>
+    </div>
+  </div>
+  <div class="box img4">
+    <div class="text">
+      <header>
+        <span class="title">NO.</span>
+        <span class="num">4</span>
+      </header>
+      <p>
+        在苗族少女的心中，有着对家乡的热爱和对未来的充满希望。她们将传统与现代相结合，谱写着自己独特的生活篇章。
+      </p>
+    </div>
+  </div>
+
+</div>
+</body>
+
+</html>

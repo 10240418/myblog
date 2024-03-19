@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a45d50e-dfec-41ab-b7a6-78a5c6af4ad6" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/test/animation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/jstest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/transition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/百页窗.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/baseCss.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/baseCss.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/layout/_partial/navigation.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/layout/_partial/navigation.ejs" afterDir="false" />
@@ -15,6 +21,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -22,12 +35,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2XQ8GaoviQHjNncmiRGp8bSOCSZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -80,7 +97,8 @@
       <workItem from="1709531394730" duration="4220000" />
       <workItem from="1709637209967" duration="3824000" />
       <workItem from="1710421017361" duration="7902000" />
-      <workItem from="1710504213692" duration="341000" />
+      <workItem from="1710504213692" duration="5557000" />
+      <workItem from="1710851181920" duration="1524000" />
     </task>
     <servers />
   </component>
