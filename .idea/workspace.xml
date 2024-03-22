@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a45d50e-dfec-41ab-b7a6-78a5c6af4ad6" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+    <list default="true" id="2a45d50e-dfec-41ab-b7a6-78a5c6af4ad6" name="更改" comment="update&#10;start&#10;Merge pull request #873 from liyongwei1/develop&#10;&#10;修改了夜间模式下body，菜单条，进度条背景颜色&#10; 1">
+      <change afterPath="$PROJECT_DIR$/test/myResume.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/jstest.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/jstest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/layout/_partial/navigation.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/layout/_partial/navigation.ejs" afterDir="false" />
@@ -18,7 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -43,13 +50,19 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/myblog/myblog/.deploy_git/2024/03/15/baseCss&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件&quot;: [
+      &quot;AngularJS&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -62,7 +75,10 @@
       <recent name="D:\myblog\myblog\source" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript 调试.jstest.html">
+    <configuration name="jstest.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myblog/test/jstest.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -75,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript 调试.jstest.html" />
         <item itemvalue="npm.server" />
       </list>
     </recent_temporary>
@@ -95,10 +112,31 @@
       <workItem from="1710851181920" duration="2391000" />
       <workItem from="1710925449940" duration="240000" />
       <workItem from="1710926874043" duration="5730000" />
+      <workItem from="1711007188387" duration="161000" />
+      <workItem from="1711007393698" duration="3326000" />
+      <workItem from="1711011470901" duration="1053000" />
+      <workItem from="1711012549299" duration="3315000" />
+      <workItem from="1711027192769" duration="7000" />
+      <workItem from="1711027225117" duration="8944000" />
+      <workItem from="1711069234154" duration="14045000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>

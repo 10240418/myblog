@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="./register.css">
+</head>
+<body>
+<div class="form-bg" >
+  <form id="form" class="form-style" action="" method="post">
+    <div>
+      <label class="label-style" for="username">Username:</label>
+      <input type="text" id="username" name="username" required minlength="3" maxlength="10">
+      <span id="usernameError" class="error"></span>
+    </div>
+    <div>
+      <label class="label-style" for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <span id="passwordError" class="error"></span>
+
+    </div>
+    <div>
+      <label class="label-style" for="password">PwdAgain:</label>
+      <input type="password" id="password2" name="password">
+      <span id="passwordError2" class="error"></span>
+    </div>
+    <button class="button-style" >注册</button>
+  </form>
+</div>
+</body>
+<script>
+  document.querySelector('.button-style').addEventListener('click', function (event) {
+    event.preventDefault();
+    var username = document.getElementById('username').value.trim()
+    var password = document.getElementById('password').value.trim()
+    var password2 = document.getElementById('password2').value.trim()
+    document.getElementById('usernameError').innerText = ''
+    document.getElementById('passwordError').innerText = ''
+    document.getElementById('passwordError2').innerText = ''
+    var isValid=true;
+    if (username === '') {
+      document.getElementById('usernameError').textContent = 'Username is required';
+      isValid = false;
+    }
+    else if (!/^[a-zA-Z0-9]{3,10}$/.test(username)) {
+      document.getElementById('usernameError').textContent = ' 3 to 10 letters or numbers';
+      isValid = false;
+    }
+
+    if (password === '') {
+      document.getElementById('passwordError').textContent ='Password is required ';
+      isValid = false;
+
+    }
+
+    if (password2 === '') {
+        document.getElementById('passwordError2').textContent ='Password is required ';
+        isValid = false;
+    }
+    if(password.length<6 && password.length>20){
+      document.getElementById('passwordError').textContent ='6 to 20 ';
+      document.getElementById('passwordError2').textContent ='6 to 20 ';
+      isValid = false;
+    }
+
+    if (password!== password2) {
+        document.getElementById('passwordError2').textContent ='Password is not the same ';
+        isValid = false;
+    }
+    if(password===username){
+      document.getElementById('passwordError').textContent ='Password is the same as username ';
+        isValid = false;
+    }
+    // 如果通过验证，可以在这里执行表单提交操作if
+    if(isValid){
+      // document.getElementById('form').submit()
+    history.pushState(null, null, 'myResume.html');
+      fetch('myResume.html')
+              .then(response => {
+                if (!response.ok) {
+                  throw new Error('Network response was not ok');
+                }
+                return response.text();
+              })
+              .then(html => {
+                // 将新页面内容插入到当前页面中
+                document.open();
+                document.write(html);
+                document.close();
+              })
+              .catch(error => {
+                console.error('There was a problem with the fetch operation:', error);
+              });
+    }
+    // 使用 fetch 获取新页面内容
+
+  });
+</script>
+</html>
