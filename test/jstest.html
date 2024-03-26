@@ -15,11 +15,49 @@
 
 </head>
 <body>
-<div id="ddd" class="div-class">我是也给div</div>
+<input type="text" id="input1">
 
 </body>
 <script>
+    function debounce(fn, delay = 500) {
+          let lastTime = 0;
+          return function(){
+              const nowTime = Date.now();
+              if(lastTime){
+                  if(nowTime - lastTime <delay){
+                      console.log('不嫩连续点击哦');
+                      return
+                  }
+              }
+              lastTime = nowTime;
+              // fn.apply(this,delay);
+              fn();
+          }
+          //节流函数
+            // let timer = null;
+    }
+    function throttle(fn,delay=500){
+        let timer = null;
+        return function(){
+            if(timer){
+                console.log('不嫩连续点击哦');
+                return
+            }
+            const args = [...arguments];
+            timer = setTimeout(()=>{
+                fn.apply(this,args);
+                timer = null;
+            },delay)
+        }
+    }
 
+
+
+    // test debounce 返回一个函数
+    input1 = document.getElementById('input1')
+    input1.addEventListener('keyup', throttle(function () {
+        console.log(input1.value)
+    }, 600))//600ms内只能触发一次
 </script>
 
 </html>
