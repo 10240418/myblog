@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a45d50e-dfec-41ab-b7a6-78a5c6af4ad6" name="更改" comment="update&#10;start&#10;Merge pull request #873 from liyongwei1/develop&#10;&#10;修改了夜间模式下body，菜单条，进度条背景颜色&#10; 1">
-      <change afterPath="$PROJECT_DIR$/test/myResume.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/jstest.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/jstest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/前端工程化.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/前端工程化.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/bashjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/bashjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/layout/_partial/navigation.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/layout/_partial/navigation.ejs" afterDir="false" />
@@ -35,6 +34,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2XQ8GaoviQHjNncmiRGp8bSOCSZ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,7 +58,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -119,6 +121,10 @@
       <workItem from="1711027192769" duration="7000" />
       <workItem from="1711027225117" duration="8944000" />
       <workItem from="1711069234154" duration="14045000" />
+      <workItem from="1711498891961" duration="162000" />
+      <workItem from="1711499072809" duration="4716000" />
+      <workItem from="1711593725265" duration="4281000" />
+      <workItem from="1711868919678" duration="5310000" />
     </task>
     <servers />
   </component>
