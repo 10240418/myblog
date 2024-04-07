@@ -81,3 +81,28 @@ where jno =(select jno from j where jname = '三建');
 
 select pno, qty from v1;
 select pno, qty from v1 where sno = 's1';
+
+# 4 like 模糊查询
+- % 任意多个字符
+- _ 一个字符
+- select * from student where name like '张%';
+- select * from student where name like '张_';
+
+# 5 聚合函数
+
+
+
+# 6 分页查询
+- limit 0,5
+- limit 5,5
+
+
+# 7 排序
+- order by 字段名 asc/desc
+
+# 8 数据表的关联关系
+- mysql是也给关系型数据库 , 数据表之间的关联关系
+- 一对一
+- 一对多
+- 多对多
+- 外键约束
