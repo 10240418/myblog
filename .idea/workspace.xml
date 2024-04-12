@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a45d50e-dfec-41ab-b7a6-78a5c6af4ad6" name="更改" comment="update&#10;start&#10;Merge pull request #873 from liyongwei1/develop&#10;&#10;修改了夜间模式下body，菜单条，进度条背景颜色&#10; 1">
-      <change afterPath="$PROJECT_DIR$/source/_posts/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/img_5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/mysql.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/mysql.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/layout/_partial/navigation.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/layout/_partial/navigation.ejs" afterDir="false" />
@@ -131,6 +125,7 @@
       <workItem from="1711868919678" duration="7888000" />
       <workItem from="1711939441258" duration="210000" />
       <workItem from="1711972056969" duration="2983000" />
+      <workItem from="1712544696191" duration="613000" />
     </task>
     <servers />
   </component>
